@@ -1,0 +1,20 @@
+[
+  "test/test_auth.py::test_register",
+  "test/test_auth.py::test_register_validate_input[--Username is required]",
+  "test/test_auth.py::test_register_validate_input[a--Password is required.]",
+  "test/test_auth.py::test_register_validate_input[test-test-already registered]",
+  "test/test_auth.py::test_login",
+  "test/test_auth.py::test_login_validate_input[a-test-Incorrect username.]",
+  "test/test_auth.py::test_login_validate_input[test-a-Incorrect password.]",
+  "test/test_auth.py::test_logout",
+  "test/test_blog.py::test_index",
+  "test/test_blog.py::test_create",
+  "test/test_blog.py::test_update",
+  "test/test_blog.py::test_create_update_validate[/create]",
+  "test/test_blog.py::test_create_update_validate[/1/update]",
+  "test/test_blog.py::test_delete",
+  "test/test_db.py::test_get_close_db",
+  "test/test_db.py::test_init_db_command",
+  "test/test_factory.py::test_config",
+  "test/test_factory.py::test_hello"
+]
